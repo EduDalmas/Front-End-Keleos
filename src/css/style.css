@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor1: #fffcf5;
+    --cor2: #d8d5ca;
+    --cor3: #ad8732;
+    --cor4: #ab0d11;
+    --cor5: #8f6f2b69;
+    --cor6: #7c080c69;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(135deg, var(--cor1), var(--cor2));
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+header img{
+    margin-top: 20px;
+    height: 80px;
+    
+}
+
+nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    font-size: 23px;
+    text-shadow: 1px 1px 3px var(--cor5);
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--cor3);
+    transition: 0.3s;
+    padding: 5px 15px;
+}
+nav a:hover{
+    color: var(--cor4);
+    text-shadow: 1px 1px 3px var(--cor6);
+}
+
+#apresentacao{
+    margin: 30px;
+    text-align: center;
+}
+
+#apresentacao h1{
+    color: var(--cor3);
+    font-size: 100px;
+    text-shadow: 2px 2px 5px var(--cor5);
+}
+
+#apresentacao h2{
+    color: var(--cor4);
+    font-size: 55px;
+    text-shadow: 2px 2px 5px var(--cor6);
+}
+
+article{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+article h2{
+    color: var(--cor3);
+    font-size: 55px;
+    text-shadow: 2px 2px 5px var(--cor5);
+}
+
+article p{
+    flex: 1;
+    text-align: justify;
+    color: var(--cor3);
+    font-size: 22px;
+    text-shadow: 2px 2px 5px var(--cor5);
+}
+
+article img{
+    width: 500px;
+    border-radius: 10px;
+}
